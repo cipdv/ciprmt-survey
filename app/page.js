@@ -215,8 +215,9 @@ const survey = () => {
         </div>
         <div>
           <label htmlFor="haircut" className="text-bold">
-            Should I cut my hair? Joke question, but real answers please ;)
+            Should I cut my hair?
           </label>
+          <p className="mt-2">Joke question, but real answers please ;)</p>
           <div className="ml-4 mt-4 mb-4">
             <div>
               <input
