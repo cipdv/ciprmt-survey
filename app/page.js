@@ -86,11 +86,11 @@ const survey = () => {
             Would you be interested in yoga classes for beginners?
           </label>
           <p className="mb-4 mt-2">
-            Many people feel intimadated by yoga classes because they feel
-            inflexible and unable to get into the postures required in the
-            class, so I'm considering offering stretching classes for beginners.
-            These classes would focus on teaching yoga postures in a more
-            relaxed and less intimidating environment.
+            I'm considering offering yoga classes for beginners for anyone who
+            feels intimadated by yoga classes because they feel inflexible and
+            unable to get into the postures required in the class. These classes
+            would focus on teaching yoga postures in a more relaxed and less
+            intimidating environment.
           </p>
           <div className="ml-4">
             <div>
@@ -121,10 +121,10 @@ const survey = () => {
             days?
           </label>
           <p className="mb-4 mt-2">
-            Many workplaces are now offering massage days as a way to help
-            employees manage stress and relieve tension. I'm considering
-            offering workplace massage days where I would come to your workplace
-            and offer 30 minute massages to employees.
+            I'm considering offering workplace massage days where I would come
+            to your workplace and offer 30 minute massages to employees. Many
+            workplaces are now offering massage days as a way to help employees
+            manage stress and relieve tension.
           </p>
           <div className="ml-4">
             <div>
