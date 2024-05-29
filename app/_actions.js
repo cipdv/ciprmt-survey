@@ -4,10 +4,15 @@ import dbConnection from "@/app/lib/db";
 
 export const submitSurvey = async (prevState, formData) => {
   const formDataObj = Object.fromEntries(formData.entries());
-  const { email, onlineBooking, stretchClasses, workplaceMassage } =
-    formDataObj;
-
-  console.log(email, onlineBooking, stretchClasses, workplaceMassage);
+  const {
+    email,
+    onlineBooking,
+    stretchClasses,
+    workplaceMassage,
+    rateIncrease,
+    comments,
+    haircut,
+  } = formDataObj;
 
   let dbClient;
   try {
@@ -35,6 +40,9 @@ export const submitSurvey = async (prevState, formData) => {
     onlineBooking,
     stretchClasses,
     workplaceMassage,
+    rateIncrease,
+    comments,
+    haircut,
   });
   return { message: "Thank you for completing the survey!" };
 };
