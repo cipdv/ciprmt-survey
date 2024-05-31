@@ -126,27 +126,25 @@ const survey = () => {
             workplaces are now offering massage days as a way to help employees
             manage stress and relieve tension.
           </p>
-          <div className="ml-4">
-            <div>
-              <input
-                type="radio"
-                id="yes"
-                name="workplaceMassage"
-                value="yes"
-                required
-              />
-              <label htmlFor="yes">Yes</label>
-            </div>
-            <div>
-              <input
-                type="radio"
-                id="no"
-                name="workplaceMassage"
-                value="no"
-                required
-              />
-              <label htmlFor="no">No</label>
-            </div>
+          <div>
+            <input
+              type="radio"
+              id="workplaceMassageYes"
+              name="workplaceMassage"
+              value="yes"
+              required
+            />
+            <label htmlFor="workplaceMassageYes">Yes</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              id="workplaceMassageNo"
+              name="workplaceMassage"
+              value="no"
+              required
+            />
+            <label htmlFor="workplaceMassageNo">No</label>
           </div>
         </div>
         <div className="mt-4">
