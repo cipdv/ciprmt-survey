@@ -52,7 +52,7 @@ const survey = () => {
             <div>
               <input
                 type="radio"
-                id="yes"
+                id="bookingYes"
                 name="onlineBooking"
                 value="yes"
                 required
@@ -62,7 +62,7 @@ const survey = () => {
             <div>
               <input
                 type="radio"
-                id="no"
+                id="bookingNo"
                 name="onlineBooking"
                 value="no"
                 required
@@ -72,7 +72,7 @@ const survey = () => {
             <div>
               <input
                 type="radio"
-                id="indifferent"
+                id="bookingIndifferent"
                 name="onlineBooking"
                 value="indifferent"
                 required
@@ -96,7 +96,7 @@ const survey = () => {
             <div>
               <input
                 type="radio"
-                id="yes"
+                id="stretchYes"
                 name="stretchClasses"
                 value="yes"
                 required
@@ -106,7 +106,7 @@ const survey = () => {
             <div>
               <input
                 type="radio"
-                id="no"
+                id="stretchNo"
                 name="stretchClasses"
                 value="no"
                 required
@@ -175,7 +175,7 @@ const survey = () => {
             <div>
               <input
                 type="radio"
-                id="yes"
+                id="rateYes"
                 name="rateIncrease"
                 value="noChange"
                 required
@@ -187,7 +187,7 @@ const survey = () => {
             <div>
               <input
                 type="radio"
-                id="no"
+                id="rateLess"
                 name="rateIncrease"
                 value="lessOften"
                 required
@@ -200,7 +200,7 @@ const survey = () => {
             <div>
               <input
                 type="radio"
-                id="no"
+                id="rateNo"
                 name="rateIncrease"
                 value="noLongerCome"
                 required
@@ -220,7 +220,7 @@ const survey = () => {
             <div>
               <input
                 type="radio"
-                id="yes"
+                id="hairCutYes"
                 name="haircut"
                 value="yes"
                 required
@@ -228,7 +228,13 @@ const survey = () => {
               <label htmlFor="yes">Yes</label>
             </div>
             <div>
-              <input type="radio" id="no" name="haircut" value="no" required />
+              <input
+                type="radio"
+                id="haircutNo"
+                name="haircut"
+                value="no"
+                required
+              />
               <label htmlFor="no">No</label>
             </div>
           </div>
