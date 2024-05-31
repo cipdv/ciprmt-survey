@@ -57,17 +57,17 @@ const survey = () => {
                 value="yes"
                 required
               />
-              <label htmlFor="yes">Yes</label>
+              <label htmlFor="bookingYes">Yes</label>
             </div>
             <div>
               <input
                 type="radio"
-                id="bookingNo"
+                id="bookingYes"
                 name="onlineBooking"
                 value="no"
                 required
               />
-              <label htmlFor="no">No</label>
+              <label htmlFor="bookingYes">No</label>
             </div>
             <div>
               <input
@@ -77,7 +77,7 @@ const survey = () => {
                 value="indifferent"
                 required
               />
-              <label htmlFor="indifferent">Indifferent</label>
+              <label htmlFor="bookingIndifferent">Indifferent</label>
             </div>
           </div>
         </div>
@@ -101,7 +101,7 @@ const survey = () => {
                 value="yes"
                 required
               />
-              <label htmlFor="yes">Yes</label>
+              <label htmlFor="stretchYes">Yes</label>
             </div>
             <div>
               <input
@@ -111,7 +111,7 @@ const survey = () => {
                 value="no"
                 required
               />
-              <label htmlFor="no">No</label>
+              <label htmlFor="stretchNo">No</label>
             </div>
           </div>
         </div>
@@ -180,7 +180,7 @@ const survey = () => {
                 value="noChange"
                 required
               />
-              <label htmlFor="noChange">
+              <label htmlFor="rateYes">
                 I will still come as often as I currently do
               </label>
             </div>
@@ -192,7 +192,7 @@ const survey = () => {
                 value="lessOften"
                 required
               />
-              <label htmlFor="lessOften">
+              <label htmlFor="rateLess">
                 I would not be able to come as often as I currently do, or I
                 would come for shorter massages
               </label>
@@ -205,7 +205,7 @@ const survey = () => {
                 value="noLongerCome"
                 required
               />
-              <label htmlFor="noLongerCome">
+              <label htmlFor="rateNo">
                 I would no longer be able to come for massages
               </label>
             </div>
@@ -225,7 +225,7 @@ const survey = () => {
                 value="yes"
                 required
               />
-              <label htmlFor="yes">Yes</label>
+              <label htmlFor="hairCutYes">Yes</label>
             </div>
             <div>
               <input
@@ -235,7 +235,7 @@ const survey = () => {
                 value="no"
                 required
               />
-              <label htmlFor="no">No</label>
+              <label htmlFor="haircutNo">No</label>
             </div>
           </div>
         </div>
